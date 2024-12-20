@@ -1,0 +1,528 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto:100,300,400,500,700,900');
+@font-face {
+    font-family: 'DINlight';
+    src: url('../../fonts/FF_DIN_Pro_Light_Italic_1.otf') format('opentype');
+}
+
+@font-face {
+    font-family: 'DINmedium';
+    src: url('../../fonts/FF_DIN_Pro_Medium_Italic_1.otf') format('opentype');
+}
+
+@font-face {
+    font-family: 'HelveticaNeue';
+    src: url('../../fonts/HelveticaNeue.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'HelveticaNeue-Medium';
+    src: url('../../fonts/HelveticaNeue Medium.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'HelveticaNeue-Bold';
+    src: url('../../fonts/Helvetica Neu Bold.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'HelveticaNeue-Light';
+    src: url('../../fonts/HelveticaNeue Light.ttf') format('truetype');
+}
+
+body {
+    font-family: 'DINlight';
+    font-size: 100%;
+    font-size: 1.4em;
+    color: #000;
+}
+
+h3 {
+    font-family: "Helvetica Neue", sans-serif;
+}
+
+h4 {
+    font-family: "Helvetica Neue", sans-serif;
+}
+
+a {
+    color: #394f8a;
+}
+
+
+/*======== Header css =========*/
+
+.header {
+    /*position: fixed;
+    z-index: 99;*/
+    top: 0;
+    left: 0;
+    right: 0;
+    transition: all 0.5s ease-in-out;
+}
+
+.top-nav {
+    background-color: #d7937d;
+    
+    color: #fff;
+    border: none;
+    border-radius: 0px;
+    margin: 0;
+    min-height: auto;
+}
+
+.top-nav .navbar-nav>li>a {
+    color: #ffffff;
+    padding: 5px 10px;
+    font-size: 12px;
+    letter-spacing: 1px;
+}
+
+.top-nav .navbar-nav>li>a:focus,
+.top-nav .navbar-nav>li>a:hover {
+    color: #000;
+}
+
+.top-nav .navbar-nav>li>a b {
+    color: #231f20;
+}
+
+
+
+.main-nav {
+    background-color: #ffffff;
+    border-radius: 0;
+    border: none;
+    margin: 0;
+    min-height: auto;
+    width: 100%;
+    z-index: 99;
+    padding: 10px 0;
+}
+
+.main-nav .navbar-header {
+    width: 20%;
+    transition: all 0.2s ease-in-out;
+}
+
+.main-nav .navbar-brand {
+    padding: 0px 0px 4px;
+    height: auto;
+}
+
+
+
+
+
+
+
+/*======= Search box on header css hhhh..................................................................... ========*/
+
+input[type=search] {
+    -webkit-appearance: textfield;
+    -webkit-box-sizing: content-box;
+    font-family: inherit;
+    font-size: 100%;
+}
+
+input::-webkit-search-decoration,
+input::-webkit-search-cancel-button {
+    display: none;
+}
+
+input[type=search] {
+    background-color: #7d3e29;
+    padding: 2px 0px 2px 14px;
+    width: 60px;
+    border: 0px;
+    -moz-border-radius: 15em;
+    border-radius: 15px;
+    -webkit-transition: all .5s;
+    -moz-transition: all .5s;
+    transition: all .5s;
+    margin-top: 2px;
+    outline: 0px;
+}
+
+input[type=search]:focus {
+    width: 140px;
+    background-color: #7d3e29;
+    -webkit-box-shadow: 0 0 5px rgba(109, 207, 246, .5);
+    -moz-box-shadow: 0 0 5px rgba(109, 207, 246, .5);
+    box-shadow: 0 0 5px rgba(109, 207, 246, .5);
+}
+
+input:-moz-placeholder {
+    color: #fff;
+    font-size: 12px;
+}
+
+input::-webkit-input-placeholder {
+    color: #fff;
+    font-size: 12px;
+}
+
+/*======= sos1 section css ========*/
+
+.sos1-bg {
+    position: relative;
+    overflow: hidden;
+    /*padding-top: 40%;*/
+}
+
+.sos1-bg .slide-fac-achieve {
+    /* background-color: #ffd0b2;*/
+    /*position: absolute;
+  top: 0;
+  right: 0;*/
+    padding: 0;
+    float: right;
+    height: 150px;
+    overflow: hidden;
+    margin-bottom: 10%;
+}
+
+.sos1-bg .slide-img {
+    background-color: #ffd0b2;
+    /*position: absolute;
+  top: 0;
+  right: 0;*/
+    padding: 0;
+    float: right;
+    height: 500px;
+    overflow: hidden;
+}
+
+.fac-hr {
+    margin-top: 2%;
+    border-color: #ccc;
+}
+
+.ul_ach {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    padding-inline-start: 15px;
+    line-height: 1.7;
+}
+
+.ul_ach li {
+    margin-bottom: 8px;
+}
+
+.sos1-bg .slide-img img {
+    width: 100%;
+    mix-blend-mode: multiply;
+}
+
+.fac-achieve-tag-line {
+    margin: 3em 0em 5em;
+    background-color: #71bf44;
+    color: #fff;
+    padding: 40px 25px;
+    float: left;
+}
+
+.fac-achieve-tag-line h2 {
+    margin: 0;
+    font-family: 'HelveticaNeue-Bold';
+    font-size: 35px;
+}
+
+.fac-achieve-tag-line h2 span {
+    display: block;
+    font-weight: 300;
+    font-family: 'Roboto';
+    font-size: 25px;
+}
+
+.tag-line {
+    position: absolute;
+    top: 40%;
+    background-color: #71bf44;
+    left: 0em;
+    color: #fff;
+    padding: 40px 25px;
+}
+
+.tag-line h2 {
+    margin: 0;
+    font-family: 'HelveticaNeue-Bold';
+    font-size: 35px;
+}
+
+.tag-line h2 span {
+    display: block;
+    font-weight: 300;
+    font-family: 'Roboto';
+    font-size: 25px;
+}
+
+.btn-group {
+    position: relative;
+    /*width: 100%;*/
+    margin-top: 30px;
+    float: right;
+    padding: 0;
+}
+
+.btn-group ul {
+    padding: 0;
+}
+
+.btn-group li {
+    display: inline-block;
+    text-align: center;
+    margin-bottom: 15px;
+}
+
+.btn-group li:first-child {
+    margin-left: 0px;
+}
+
+.btn-group li a {
+    color: #000;
+    cursor: pointer;
+    border: 1px solid #71bf44;
+    padding: 12px 0px;
+    font-weight: 600;
+    margin: 0 22px;
+    font-size: 1.1em;
+    font-family: "Helvetica Neue", sans-serif;
+    width: 240px;
+    display: block;
+    position: relative;
+    text-decoration: none;
+}
+
+.group2 li a {
+    width: 230px;
+    margin: 10% 3px 0;
+    font-weight: normal;
+    font-family: "DINmedium";
+}
+
+.btn-group li a:hover {
+    color: #ffffff;
+}
+
+/*.title-tag-line {
+  float: left;
+    background-color: #71bf44;
+    color: #fff;
+    padding: 40px 25px;
+}
+.title-tag-line h2 {
+  margin: 0;
+  font-family: 'HelveticaNeue-Bold';
+  font-size: 35px;
+}
+.title-tag-line h2 span {
+    display: block;
+    font-weight: 300;
+    font-family: 'Roboto';
+    font-size: 25px;
+}*/
+
+.SAsos3 {
+    margin-top: 8em;
+    overflow: inherit;
+}
+
+.SA-tag-line {
+    position: absolute;
+    top: -8em;
+    text-align: left;
+}
+
+.schIcon {
+    margin-bottom: 4em;
+}
+
+.schIcon img {
+    max-width: 120px;
+    width: 100%;
+}
+
+.schBox {
+    max-width: 950px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+.schBox button {
+    border: 0;
+    background-color: #438c19;
+    padding: 1em 2em;
+    font-size: 17px;
+    font-weight: bold;
+    color: #fff;
+    display: block;
+    margin: 0 auto 1em;
+    cursor: auto;
+}
+
+.SAleftBox {}
+
+ul.listSA {
+    padding: 0 0 0 17px;
+    font-size: 14px;
+    color: #3a3a3a;
+    margin: 0 0 2em;
+}
+
+ul.listSA li {
+    margin-bottom: 10px;
+}
+
+.SArightBox {
+    background-color: #e4ebce;
+    padding: 4em 2em;
+    margin-top: 1.8em;
+}
+
+
+/*======= sos3 section css boxxxxxxxx.................................... ========*/
+
+.sos3 {
+    background-color: #eaeaea;
+    padding-top: 5em;
+    padding-bottom: 5em;
+    text-align: center;
+    margin-top: 7em;
+    margin-bottom: 5em;
+}
+
+.course-container {
+    width: 990px;
+}
+
+.sos3 h3 {
+    margin: 0 0 3em;
+}
+
+h3 span {
+    font-weight: 600;
+    font-family: 'Roboto';
+}
+
+.sos3 .sos3-box {
+    margin: 2% 1%;
+    width: 18%;
+}
+
+.sos3-box {
+    margin: 4%;
+    padding: 5% 0%;
+    text-align: center;
+    transition: all 0.2s ease-in-out;
+    cursor: pointer;
+}
+
+.sos3-box:before,
+.sos3-box:after {
+    content: '';
+    position: absolute;
+    width: calc(100% - 35px);
+    height: calc(100% - 35px);
+    border: 1px solid #d0d0d0;
+    pointer-events: none;
+    transition: .33s all ease;
+    transition: all 0.2s ease-in-out;
+}
+
+.sos3-box:before {
+    top: 0;
+    left: 0;
+    border-width: 1px 0 0 1px;
+}
+
+.sos3-box:after {
+    bottom: 0;
+    right: 0;
+    border-width: 0 1px 1px 0;
+}
+
+.sos3-box:hover {
+    padding: 3.2% 0%;
+}
+
+.sos3-box:hover:before,
+.sos3-box:hover:after {
+    width: 100%;
+    height: 100%;
+    border-color: #71bf44;
+    transition: all 0.2s ease-in-out;
+}
+
+.sos3-box hr {
+    border-top: 1px solid #d0d0d0;
+    width: 50px;
+    margin: 20px auto;
+    transition: all 0.2s ease-in-out;
+}
+
+.sos3-box:hover hr {
+    width: 140px;
+    margin: 40px auto;
+    transition: all 0.2s ease-in-out;
+}
+
+.sos3-box h5 a {
+    font-size: 18px;
+    margin: 0;
+    color: #000;
+    font-family: "DINmedium";
+}
+
+.facultyImg {
+    width: 140px;
+    height: 140px;
+    margin: 0 auto 30px;
+    display: block;
+    border: 1px solid #dadada;
+    /* border-radius: 50%; */
+    position: relative;
+    overflow: hidden;
+}
+
+.facultyachImg {
+    width: 150px;
+    height: 150px;
+    margin: 0px 0px 30px 0px;
+    display: block;
+    border: 1px solid #dadada;
+    /* border-radius: 50%; */
+    position: relative;
+    overflow: hidden;
+}
+
+.facultyachImg img {
+    width: 100%;
+}
+
+.sos3-box img {
+    width: 100%;
+    /*max-width: 120px;*/
+}
+
+.sos3 .sos3-box img {
+    width: 100%;
+    max-width: 120px;
+}
+
+.sos3-box b {
+    font-size: 18px;
+    color: #b11117;
+}
+
+.sos3-box i {
+    color: #636363;
+    font-size: 16px;
+}
+
+.tieupLogo {}
+
+.tieupLogo img {
+    width: 100%;
+    max-width: 140px;
+    margin: 0px 15px 10px 0px;
+}
